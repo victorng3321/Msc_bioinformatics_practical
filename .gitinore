@@ -1,3 +1,10 @@
 #These are instructions to ignore
 
+data/*.csb
+#I want $ nano .gitignore
+# let's add this line: 
+  !data/spaceships.csv
+  
+# save and exit - we can now check 
+$ cat .gitgnore
 data/*.csv 
